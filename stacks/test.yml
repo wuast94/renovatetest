@@ -7,7 +7,7 @@ services:
     image: linuxserver/sonarr:4.0.9.2244-ls255@sha256:a7fb497219cf85793d82999c6ff344f2c826e8b908803fda4c809cf5aba15db1
   sonarr:
     # should be upgraded to 4.0.9.2244-ls257
-    image: linuxserver/sonarr:4.0.8.1874-ls251
+    image: linuxserver/sonarr:4.0.8.1874-ls251@sha256:0777b308a414000505651059a95af373ded6aba8ce5a40b50d7aad333dc912e2
   sabsab:
     image: linuxserver/sabnzbd:4.3.3-ls183@sha256:7c9fd565c8c6c8f0ccedc94ca3ed6ea0914b89d513751a221da21162c970d760
 
