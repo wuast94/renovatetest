@@ -31,7 +31,7 @@
             },
             {
                 "matchPackageNames": [
-                    "linuxserver/radarr"
+                    "linuxserver/sabnzbd"
                 ],
                 "versioning": "regex:^(?<major>\\d{1,2})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})\\-(?<compatibility>ls)(?<revision>\\d+)?$",
                 "allowedVersions": "/^\\d{1,2}\\.\\d{1,2}\\.\\d{1,2}-ls\\d+$/"
