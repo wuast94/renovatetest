@@ -1,0 +1,34 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended",
+        "docker:pinDigests",
+        "helpers:pinGitHubActionDigests",
+        ":configMigration",
+        ":pinDevDependencies"
+    ],
+    "docker-compose": {
+        "enabled": true,
+        "versioning": "loose",
+        "fileMatch": [
+            "^stacks\\/.*\\.yml$"
+        ],
+        "commitMessagePrefix": ":arrow_up:",
+        "packageRules": [
+            {
+                "matchPackageNames": [
+                    "linuxserver/radarr"
+                ],
+                "versioning": "regex:^(?<major>\\d{1,2})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})\\.(?<build>\\d+)-(?<compatibility>ls)(?<revision>\\d+)?$",
+                "allowedVersions": "/^\\d{1,2}\\.\\d{1,2}\\.\\d{1,2}\\.\\d+-ls\\d+$/"
+            },
+            {
+                "matchPackageNames": [
+                    "linuxserver/sonarr"
+                ],
+                "versioning": "regex:^(?<major>\\d{1,2})\\.(?<minor>\\d{1,2})\\.(?<patch>\\d{1,2})\\.(?<build>\\d+)(?:-(?<compatibility>ls)(?<revision>\\d+))?$",
+                "allowedVersions": "/^\\d{1,2}\\.\\d{1,2}\\.\\d{1,2}\\.\\d+-ls\\d+$/"
+            }
+        ]
+    }
+}
