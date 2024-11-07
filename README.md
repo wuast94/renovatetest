@@ -49,3 +49,5 @@ what i would do? just as an idea
 
 </blockquote>
 </details>
+
+now i would see that there is something wrong with my sonarr rules and also the radar allowed version is not right becouse its missing the build. 
