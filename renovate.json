@@ -27,7 +27,7 @@
                     "linuxserver/sonarr"
                 ],
                 "versioning": "regex:^(?<prerelease>develop-)?v?(?<major>\\d+)\\.?(?<minor>\\d+)?\\.?(?<patch>\\d+)?(?:ubu\\d+)?(?:\\.|-)?(?<build_old>\\w?\\d+)?-ls(?<build>\\d+)$",
-                "allowedVersions": "/^\\d{1,2}\\.missconfig\\d{1,2}\\.\\d{1,2}\\.\\d+-ls\\d+$/"
+                "allowedVersions": "/[0-9]+\\.missconfig[0-9]+\\.[0-9]+(\\.[0-9]+)?/"
             },
             {
                 "matchPackageNames": [
