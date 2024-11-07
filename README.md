@@ -23,10 +23,10 @@ what i would do? just as an idea
 
 <details><summary>stacks/test.yml</summary>
 
- - `linuxserver/radarr 5.14.0.9383-ls244@sha256:a5a1fdf02aa14abc33a507eafa125ff57cb83f251a519536bce331ce9e008ef7`
+ - `linuxserver/radarr 5.11.0.9244-ls240@sha256:1a50d4f08e283aa9ff4c723b940dceb4e8aeff7946e1993213efd0de3d5a4adb`
  - `linuxserver/sonarr 4.0.9.2244-ls255@sha256:98c21a64377619ec74778c70cc2e74d3e978a4d2c61f97b9ad88a0e5bc0766f9`
  - `linuxserver/sonarr 4.0.8.1874-ls251@sha256:0777b308a414000505651059a95af373ded6aba8ce5a40b50d7aad333dc912e2`
- - `linuxserver/sabnzbd 4.3.3-ls183@sha256:51df466fb66b6a18d89597a3608bb2ab69ff8aff3131b5bec80e4ed7534b2b9f`
+ - `linuxserver/sabnzbd:4.3.3-ls188@sha256:5ae714b1a941a38471c2cc381ec407f93b3d7823c5a77a9a651502036b70ad69`
 
 </details>
 
@@ -40,10 +40,10 @@ what i would do? just as an idea
 
 <details><summary>stacks/test.yml</summary>
 
- - `linuxserver/radarr 5.14.0.9383-ls244@sha256:a5a1fdf02aa14abc33a507eafa125ff57cb83f251a519536bce331ce9e008ef7` found `5.14.0.9383-ls244`
+ - `linuxserver/radarr 5.11.0.9244-ls240@sha256:1a50d4f08e283aa9ff4c723b940dceb4e8aeff7946e1993213efd0de3d5a4adb` found `4.3.3-ls188`
  - `linuxserver/sonarr 4.0.9.2244-ls255@sha256:98c21a64377619ec74778c70cc2e74d3e978a4d2c61f97b9ad88a0e5bc0766f9` found `NULL`
  - `linuxserver/sonarr 4.0.8.1874-ls251@sha256:0777b308a414000505651059a95af373ded6aba8ce5a40b50d7aad333dc912e2` found `NULL`
- - `linuxserver/sabnzbd 4.3.3-ls183@sha256:51df466fb66b6a18d89597a3608bb2ab69ff8aff3131b5bec80e4ed7534b2b9f` found `4.3.3-ls183`
+ - `linuxserver/sabnzbd:4.3.3-ls188@sha256:5ae714b1a941a38471c2cc381ec407f93b3d7823c5a77a9a651502036b70ad69` found `4.3.3-ls188`
 
 </details>
 
