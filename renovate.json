@@ -10,8 +10,8 @@
     "docker-compose": {
         "enabled": true,
         "versioning": "loose",
-        "fileMatch": [
-            "^stacks\\/.*\\.yml$"
+        "managerFilePatterns": [
+            "/^stacks\\/.*\\.yml$/"
         ],
         "commitMessagePrefix": ":arrow_up:",
         "packageRules": [
