@@ -1,6 +1,6 @@
 services:
   radarr:
-    image: linuxserver/radarr:5.11.0.9244-ls240@sha256:1a50d4f08e283aa9ff4c723b940dceb4e8aeff7946e1993213efd0de3d5a4adb
+    image: linuxserver/radarr:5.23.3.9987-ls275@sha256:532749cc71739130720c9d1cd8b8fbec204f6c8bd94fd633fccb4b566a672a55
   sonarr:
     image: linuxserver/sonarr:4.0.9.2244-ls255@sha256:98c21a64377619ec74778c70cc2e74d3e978a4d2c61f97b9ad88a0e5bc0766f9
   sonarr2:
