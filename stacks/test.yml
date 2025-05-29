@@ -6,7 +6,7 @@ services:
   sonarr2:
     image: linuxserver/sonarr:4.0.8.1874-ls251@sha256:0777b308a414000505651059a95af373ded6aba8ce5a40b50d7aad333dc912e2
   sabsab:
-    image: linuxserver/sabnzbd:4.3.3-ls188@sha256:5ae714b1a941a38471c2cc381ec407f93b3d7823c5a77a9a651502036b70ad69
+    image: linuxserver/sabnzbd:4.5.1-ls220@sha256:5a46efd411bd4c6d12706defe483ad1d34e36f758b44a15ae0be662f02c58194
 
 
     
